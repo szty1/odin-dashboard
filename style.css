@@ -2,13 +2,13 @@ body {
     background-color: #fff1f2;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 svg {
     fill: #ffffff;
-    vertical-align: bottom;
 }
 
 .container {
@@ -52,6 +52,14 @@ svg {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 70px 1fr;
+    column-gap: 20px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header .search {
+    display: grid;
+    grid-template-columns: 40px auto;
     align-items: center;
 }
 
@@ -60,3 +68,65 @@ svg {
     height: 28px;
     fill: #000000;
 }
+
+.header .search input {
+    background-color: #fff1f2;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    border:0 none;
+}
+
+.header .user {
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+}
+
+.header .user img {
+    width: 32px;
+    height: 32px;
+}
+
+.header .profile {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+}
+
+.header .profile img {
+    width: 64px;
+    height: 64px;
+    grid-row: 1 / 3;
+}
+
+.header .profile h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.header .buttons {
+    display: grid;
+    gap: 20px;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header .buttons button {
+    width: 100px;
+    background-color: #881337;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border:0 none;
+}
+
