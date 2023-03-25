@@ -1,0 +1,57 @@
+body {
+    background-color: #fff1f2;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    fill: #ffffff;
+    vertical-align: bottom;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(240px, 1fr) 5fr;
+    grid-template-rows: 140px auto;
+}
+
+.sidebar {
+    background-color: #881337;
+    grid-row: 1 / span 2;
+    color: #ffffff;
+}
+
+.sidebar h2 {
+    font-weight: 500;
+    margin: 20px 0 20px 16px;
+    padding: 0;
+}
+
+.sidebar h2 svg {
+    width: 36px;
+    height: 36px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+.sidebar ul li {
+    margin: 0 0 20px 20px;
+}
+
+.sidebar ul li svg {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.header {
+    background-color: #ffffff;
+
+}
