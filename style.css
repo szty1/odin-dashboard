@@ -50,11 +50,11 @@ svg {
 .header {
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 70px 1fr;
     column-gap: 20px;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 25px;
     box-shadow: 0 3px 3px #00000022;
 }
 
@@ -83,7 +83,7 @@ svg {
 
 .header .user {
     align-self: center;
-    justify-self: center;
+    justify-self: right;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
